@@ -56,6 +56,9 @@ banana/
 *.gif
 *.bmp
 
+# But keep the UI screenshot
+!screenshot_ui_image.jpg
+
 # Executables (but keep for releases)
 # *.exe
 *.msi
