@@ -1,0 +1,79 @@
+# Environment variables
+.env
+*.env
+env/
+venv/
+ENV/
+
+# API Keys and secrets
+*api_key*
+*API_KEY*
+*secret*
+*SECRET*
+
+# Build outputs
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+debug_*.log
+test_*.log
+*_test.log
+*_debug.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# History files
+*_history.json
+banana_history.json
+
+# Generated images
+banana/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+
+# Executables (but keep for releases)
+# *.exe
+*.msi
+*.deb
+*.rpm
+
+# Test and debug files
+test_*.py
+test_*.log
+debug_*.log
+simulate_*.py
+
+# Build artifacts
+banana_editor_standalone.spec
+__pycache__/
+build/
+dist/
+
+# Runtime generated
+nul
+run.bat
